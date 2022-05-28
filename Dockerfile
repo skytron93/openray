@@ -4,6 +4,6 @@ EXPOSE 80
 COPY ./app /app
 WORKDIR /app
 
-RUN chmod +x ./web ./vmess.sh
+RUN chmod +x ./web ./web.sh
 
 CMD ./vmess.sh
