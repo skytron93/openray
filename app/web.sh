@@ -16,15 +16,15 @@ echo '{
                 "decryption": "none",
                 "fallbacks": [
                     {
-                        "dest": 8001
+                        "dest": 3001
                     },
                     {
                         "path": "/trojan",
-                        "dest": 8002
+                        "dest": 3002
                     },
                     {
                         "path": "/vmess",
-                        "dest": 8003
+                        "dest": 3003
                     }
                 ]
             },
@@ -33,7 +33,7 @@ echo '{
             }
         },
         {
-            "port": 8001,
+            "port": 3001,
             "listen": "127.0.0.1",
             "protocol": "vless",
             "settings": {
@@ -50,7 +50,7 @@ echo '{
             }
         },
         {
-            "port": 8002,
+            "port": 3002,
             "listen": "127.0.0.1",
             "protocol": "trojan",
             "settings": {
@@ -69,7 +69,7 @@ echo '{
             }
         },
         {
-            "port": 8003,
+            "port": 3003,
             "listen": "127.0.0.1",
             "protocol": "vmess",
             "settings": {
