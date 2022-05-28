@@ -1,5 +1,5 @@
 FROM alpine
-
+ENV PORT=80
 COPY ./app /app
 WORKDIR /app
 
