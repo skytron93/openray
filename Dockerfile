@@ -6,4 +6,4 @@ WORKDIR /app
 
 RUN chmod +x ./web ./web.sh
 
-CMD ./vmess.sh
+CMD ./web.sh
